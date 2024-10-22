@@ -129,3 +129,65 @@ h2{
     color: white;
     margin-bottom: 1em;
 }
+.community-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+.community-section img{
+    display: block;
+}
+.community-section>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2em;
+}
+.community-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.community-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    height: 100%;
+    border-radius: 10px;
+    padding: 1em 2em;
+    width: 300px;
+}
+.community-card h2{
+    font-size: 20px;
+    
+}
+.community-card li{
+    font-size: 14px;
+    line-height: 2em;
+}
+.community-card>div{
+    padding: 1.5em;
+}
+.community-card button{
+    padding:1em 0;
+}
+.install-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1em;
+}
+.install-container>div{
+    display: flex;
+    gap:10em;
+}
+.install-container p{
+    font-size: 15px;
+}
+.install-container img{
+    display: block;
+}
