@@ -264,3 +264,13 @@ hr{
     background-color: white;
     margin-bottom: 1em;
 }
+.testimonials-section{
+    display: flex;
+    margin: 5em 20em;
+    
+}
+
+.testimonials-section>div{
+    display: flex;
+    gap: 2em;
+}
