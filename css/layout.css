@@ -230,7 +230,7 @@ h2{
     display: block;
 }
 .trending-section>div{
-    margin-top: 2em;
+    margin: 2em 0;
     display: flex;
     gap: 10em;
 }
