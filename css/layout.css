@@ -274,3 +274,6 @@ hr{
     display: flex;
     gap: 2em;
 }
+footer>div{
+    background-color:#212121 ;
+}
