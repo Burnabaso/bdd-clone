@@ -96,6 +96,22 @@ h2{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap:1em;
+}
+#community-card:hover{
+    background-color: #dce8ef;
+}
+#economy-card:hover{
+    background-color: #dcebec;
+}
+#design-card:hover{
+    background-color: #dce9e1;
+}
+#sustainability-card:hover{
+    background-color: #ecefdc;
+}
+#social-card:hover{
+    background-color: #f6e2e7;
 }
 .card {
     display: flex;
@@ -104,8 +120,9 @@ h2{
     padding: 1em;
     background-color: white;
     height: 400px;
-    width: 350px;
-    
+    width: 400px;
+    transition: background-color 0.3s ease-in;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card h2{
     font-size: 20px;
@@ -122,7 +139,9 @@ h2{
     padding: 2em;
     background-image: url('/assets/vision-section/drone-shot.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
     
 }
 .explore-section h2{
@@ -159,6 +178,10 @@ h2{
     border-radius: 10px;
     padding: 1em 2em;
     width: 300px;
+    transition: box-shadow 0.2s ease-in;
+}
+.community-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .community-card h2{
     font-size: 20px;
@@ -172,7 +195,8 @@ h2{
     padding: 1.5em;
 }
 .community-card button{
-    padding:1em 0;
+    padding:1em 2em;
+    margin-inline: auto;
 }
 .install-container{
     display: flex;
@@ -199,6 +223,8 @@ h2{
     background-image: url('/assets/hub-section/bg.jpeg');
     background-size:cover ;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     padding: 1em;
 }
 .hub-section>div{
@@ -232,7 +258,7 @@ h2{
 .trending-section>div{
     margin: 2em 0;
     display: flex;
-    gap: 10em;
+    gap: 50px;
 }
 .trending-section>div>div{
     display: flex;
@@ -250,6 +276,9 @@ h2{
 }
 .trending-section p{
     font-size: 12px ;
+}
+.trending-section button{
+    padding: 1em 2em;
 }
 hr{
     height: 2px;
@@ -274,6 +303,94 @@ hr{
     display: flex;
     gap: 2em;
 }
-footer>div{
+.testi-inner{
+    position: relative;
+
+}
+.back-face{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5f6268;
+    z-index: -1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-face p{
+    text-align: center;
+}
+.testi-inner:hover .back-face{
+    z-index: 1;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color:#212121 ;
+    color: white;
+    padding:2em 20em;
+}
+footer>div{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-main-section{
+    gap: 10em;
+
+}
+footer h3{
+    color: #b5b5b5;
+    font-size: 16px;
+}
+.site-map{
+    display: flex;
+    flex-direction: column;
+}
+.site-map>div{
+    display: flex;
+    margin: 1em 0;
+    justify-content: space-between;
+    width: 800px;
+}.site-map>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.site-map ul{
+    list-style: none;
+    line-height: 2;
+    font-size: 13.6px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.subscribe>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13.6px;
+
+}
+.subscribe>div>p:last-child{
+    font-size: 10px;
+}
+.footer-download>div{
+    display: flex;
+    gap: 1em;
+}
+
+.copyright-section{
+    margin-top: 3em;
+    font-size: 12px;
+}
+.copyright-section>div{
+    display: flex;
+    gap: 2em;
+    
 }
