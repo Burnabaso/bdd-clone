@@ -1,8 +1,4 @@
-.hero{
-    height: 40vh;
-    background-image: url('/assets/blog-page/hero.png');
-    background-position: center;
-}
+
 .main-section{
     display: flex;
     flex-direction: column;

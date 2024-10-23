@@ -18,7 +18,11 @@
 }
 
 
-
+.hero-extra{
+    height: 40vh;
+    background-image: url('/assets/blog-page/hero.png');
+    background-position: center;
+}
 .footer-main-section{
     gap: 10em;
 
