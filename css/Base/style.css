@@ -71,3 +71,7 @@ footer>div{
     justify-content: space-between;
     width: 100%;
 }
+footer h3{
+    color: #b5b5b5;
+    font-size: 16px;
+}
