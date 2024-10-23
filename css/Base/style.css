@@ -65,6 +65,7 @@ footer{
     background-color:#212121 ;
     color: white;
     padding:2em 20em;
+    
 }
 footer>div{ 
     display: flex;

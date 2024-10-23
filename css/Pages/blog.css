@@ -1,0 +1,50 @@
+.hero{
+    height: 40vh;
+    background-image: url('/assets/blog-page/hero.png');
+    background-position: center;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    gap: 4em;
+}
+.blog-container{
+    display: flex;
+    gap: 1em;
+}
+.blog-container h2{
+    font-size: 18px;
+}
+.blog-container p{
+    font-size: 13px;
+}
+.blog-container h3{
+    color: #007acd;
+    font-size: 16px;
+}
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease-in-out;
+}
+.blog-card:hover{
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 35px 0 rgba(0, 0, 0, 0.19);
+}
+.blog-card>p{
+    padding-inline:1em;
+    padding-bottom: 1em;
+}
+.blog-card img{
+    width: 100%;
+}
+.content{
+    padding: 2em 1em;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
