@@ -1,0 +1,73 @@
+@font-face {
+    font-family: TheMixBlack-Plain;
+    src: url('/assets/font/TheMixSemiBold-Plain.otf');
+}
+@font-face {
+    font-family: TheMixBlack-Caps;
+    src: url("/assets/font/TheMixBlack-Caps.otf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;   
+    text-transform: uppercase;
+    font-family: TheMixBlack-Plain;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    height: 80px;
+    background-color: #0000009f;
+    color: white;
+    padding-inline: 20em;
+    font-size: 13.6px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+button{
+    background-color: #0078be;
+    padding: 0.5em 1.5em;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 1.5em;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+button:hover{
+    scale: 1.03;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    font-family: TheMixBlack-Caps;
+    font-size: 32px;
+}
+hr{
+    height: 2px;
+    width: 100%;
+    margin:1em 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#212121 ;
+    color: white;
+    padding:2em 20em;
+}
+footer>div{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
